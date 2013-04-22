@@ -1,0 +1,44 @@
+{
+    "name" : "awssum",
+    "description" : "NodeJS module to aid talking to Web Service APIs. Requires plugins.",
+    "version" : "1.0.0-beta",
+
+    "main" : "awssum.js",
+    "engines" : {
+        "node" : ">= 0.6.0"
+    },
+    "devDependencies" : {
+        "tap" : "0.4.x"
+    },
+    "dependencies" : {
+        "underscore" : "1.4.x",
+        "xml2js" : "0.2.x"
+    },
+    "scripts" : {
+        "test" : "tap test/*.js"
+    },
+
+    "homepage" : "https://awssum.io/",
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/awssum/awssum.git"
+    },
+    "bugs" : {
+        "url" : "http://github.com/awssum/awssum/issues",
+        "mail" : "andychilton@gmail.com"
+    },
+
+    "author" : {
+        "name" : "Andrew Chilton",
+        "email" : "andychilton@gmail.com",
+        "url" : "http://chilts.org/"
+    },
+    "contributors" : [],
+    "licenses" : [{
+        "type" : "MIT",
+        "url" : "http://github.com/appsattic/node-awssum/raw/master/LICENSE"
+    }],
+    "keywords" : [
+        "api", "apis", "webapi", "client"
+    ]
+}
